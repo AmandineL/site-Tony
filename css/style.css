@@ -1,0 +1,20 @@
+p.currentTextHolder{
+	color: #fff;
+}
+div#onglet-services i.icone-services{
+	font-size: 25px;
+}
+@media (min-width: 1200px){
+	.vertical-item.content-padding div.item-content{
+		padding: 45px;
+	}
+}
+
+@media (max-width: 992px){
+	.header_left_logo{
+		padding: 10px;
+	}
+	div#onglet-services i.icone-services{
+	display: none;
+}
+}

@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>L'art du jardin en sologne</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="icon" href="images/logo/logo.ico" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">
+				<i class="rt-icon2-cross2"></i>
+			</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form form-inline" action="./">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div>
+	<!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- Information barre -->
+			<section class="page_topline cs section_padding_15 table_section table_section_md">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 text-center text-md-left">
+							<div class="page_social_icons">
+								<a class="social-icon theme-color-icon soc-facebook" href="https://www.facebook.com/Lart-du-jardin-en-sologne-1155639714614113/" title="Facebook"></a>
+								<a class="social-icon theme-color-icon soc-twitter" href="#" title="Twitter"></a>
+								<a class="social-icon theme-color-icon soc-google" href="#" title="Google"></a>
+							</div>
+						</div>
+
+						<div class="col-md-10 text-center text-md-right">
+
+							<div class="inline-elem">
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-map-marker highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										18330 Neuvy-sur-Barangeon
+									</div>
+								</div>
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-phone highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										06 35 26 72 74
+									</div>
+								</div>
+
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-envelope highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										<a href="mailto:artdujardinensologne@gmail.com">artdujardinensologne@gmail.com</a>
+									</div>
+								</div>
+
+							</div>
+
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<!-- Header -->
+			<header class="page_header header_white toggler_right">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 display_table">
+							<div class="header_left_logo display_table_cell">
+								<a href="index.html" class="logo top_logo">
+									<img src="images/logo/logo.png" alt="" width="110px">
+								</a>
+							</div>
+
+							<div class="header_mainmenu display_table_cell text-right">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu" class="myNAV">
+										<li>
+											<a href="index.html">Accueil</a>
+										</li>
+										<li>
+											<a href="services.html" >Nos services</a>
+										</li>
+										<li>
+											<a href="projets.html">Nos Projets</a>
+										</li>
+										<li class="active">
+											<a href="galerie.html">Galerie</a>
+										</li>
+										<li>
+											<a href="contact.html">Contact</a>
+											<ul>
+												<li>
+													<a href="faq.html">FAQ</a>
+												</li>
+												<li>
+													<a href="propos.html">À Propos</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<!-- header toggler -->
+								<span class="toggle_menu">
+									<span></span>
+								</span>
+							</div>
+							
+						</div>
+
+					</div>
+				</div>
+			</header>
+
+			<section class="page_breadcrumbs ds parallax section_padding_top_100 section_padding_bottom_75">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2>Galerie</h2>
+							<ol class="breadcrumb">
+								<li>
+									<a href="index.html">Accueil</a>
+								</li>
+								<li class="active">Galerie</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ls page_portfolio section_padding_top_100 section_padding_bottom_75 columns_padding_0">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12">
+
+							<div class="filters isotope_filters text-center">
+								<a href="#" data-filter="*" class="selected">Tout</a>
+								<a href="#" data-filter=".abattage">Abattage &amp; Élagage</a>
+								<a href="#" data-filter=".entretien">Remise en état &amp; Entretien de jardin</a>
+								<a href="#" data-filter=".creation">Création</a>
+							</div>
+
+
+							<div class="isotope_container isotope row masonry-layout" data-filters=".isotope_filters">
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 abattage">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/abattage/bois02.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/abattage/bois02.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>Avant la découpe de bois de chauffage</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 abattage">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/abattage/bois05.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/abattage/bois05.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>Pendant la découpe de bois de chauffage</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 abattage">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/abattage/bois10.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/abattage/bois10.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>Après la découpe de bois de chauffage</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 entretien">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/entretien/01.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/01.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>Avant la remise en état d'une pelouse</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 entretien">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/entretien/02.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/02.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>Pendant la remise en état d'une pelouse</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 entretien">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/entretien/03.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/03.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>Après la remise en état d'une pelouse</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 creation">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/creation/02.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/creation/02.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>Livraison de bande de bruyere</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 creation">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/creation/01.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/creation/01.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>Pose de bande de bruyere</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 creation">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/creation/03.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/creation/03.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>Pendant la pose de gazon de plaquage</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 creation">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/creation/04.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/creation/04.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>Après la pose de gazon de plaquage (400m2)</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 entretien">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/entretien/taille05.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/taille05.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>
+												<a href="gallery-single.html">Après une taille de haie</a>
+											</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 abattage">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/abattage/01.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/abattage/01.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>
+												<a href="gallery-single.html">Avant l'abattage d'une cépée de frêne et d'aulne</a>
+											</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 abattage">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/abattage/02.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/abattage/02.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>
+												<a href="gallery-single.html">Pendant l'abattage d'une cépée de frêne et d'aulne</a>
+											</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 abattage">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/abattage/04.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/abattage/04.jpg"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>
+												<a href="gallery-single.html">Après l'abattage d'une cépée de frêne et d'aulne</a>
+											</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 entretien">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/entretien/taille01.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/taille01.jpg"></a>
+													<a class="p-link" title="" href="gallery-single.html"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>
+												<a href="gallery-single.html">Après une taille de haie</a>
+											</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 entretien">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/entretien/taille04.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/taille04.jpg"></a>
+													<a class="p-link" title="" href="gallery-single.html"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>
+												<a href="gallery-single.html">Après une taille de haie</a>
+											</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 entretien">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/entretien/taille07.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/taille07.jpg"></a>
+													<a class="p-link" title="" href="gallery-single.html"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>
+												<a href="gallery-single.html">Après une taille de haie</a>
+											</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 creation">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/creation/05.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/creation/05.jpg"></a>
+													<a class="p-link" title="" href="gallery-single.html"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>
+												<a href="gallery-single.html">Avant le remplissage d'une piscine</a>
+											</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 creation">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/creation/06.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/creation/06.jpg"></a>
+													<a class="p-link" title="" href="gallery-single.html"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>
+												<a href="gallery-single.html">Pendant le remplissage d'une piscine</a>
+											</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="isotope-item col-lg-4 col-md-4 col-sm-6 creation">
+									<div class="vertical-item gallery-item content-absolute text-center ds">
+										<div class="item-media">
+											<img src="images/gallery/creation/07.jpg" alt="">
+											<div class="media-links">
+												<div class="links-wrap">
+													<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/creation/07.jpg"></a>
+													<a class="p-link" title="" href="gallery-single.html"></a>
+												</div>
+											</div>
+										</div>
+										<div class="item-content darken_gradient">
+											<h4>
+												<a href="gallery-single.html">Après le remplissage d'une piscine</a>
+											</h4>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<!-- eof .isotope_container.row -->
+
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<footer class="page_footer ds parallax section_padding_top_100 section_padding_bottom_50">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-3 col-sm-6">
+
+							<div class="widget widget_text">
+
+								<h3 class="widget-title">Contact
+									<span class="highlight regular">Info</span>
+								</h3>
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-map-marker highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										18330 Neuvy-sur-Barangeon
+									</div>
+								</div>
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-pencil highlight fontsize_16"></i>
+									</div>
+									<div class="media-body greylinks underlined-links">
+										<a href="mailto:artdujardinensologne@gmail.com">artdujardinensologne@gmail.com</a>
+									</div>
+								</div>
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-phone highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										06 35 26 72 74
+									</div>
+								</div>
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-check-square-o highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										844.619.601.000.17-APE8130
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_nav_menu">
+
+								<h3 class="widget-title">Lien
+									<span class="highlight regular">Utile</span>
+								</h3>
+								<div>
+									<ul class="menu greylinks fontsize_16">
+										<li class="">
+											<a href="propos.html">À Propos</a>
+										</li>
+										<li class="">
+											<a href="services.html">Nos Services</a>
+										</li>
+										<li class="">
+											<a href="galerie.html">Galerie</a>
+										</li>
+										<li class="">
+											<a href="contact.html">Contact</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_categories">
+
+								<h3 class="widget-title">Nos
+									<span class="highlight regular">Services</span>
+								</h3>
+								<ul class="greylinks">
+									<li>
+										<a href="services.html" title="">Création</a>
+									</li>
+									<li>
+										<a href="services.html" title="">Remise en état &amp; Entretien</a>
+									</li>
+									<li>
+										<a href="services.html" title="">Abattage &amp; Élagage</a>
+									</li>
+									<li>
+										<a href="services.html" title="">Service à la personne</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_mailchimp">
+
+								<h3 class="widget-title">Nous
+									<span class="highlight regular">Suivre</span>
+								</h3>
+
+								<p>
+									Suivez-nous sur les réseaux sociaux pour voir nos activitées en direct et suivre les projets ! 
+									<a href="https://www.facebook.com/Lart-du-jardin-en-sologne-1155639714614113/?epa=SEARCH_BOX" target="_blank">
+										<i class="fa fa-facebook-square highlight fontsize_18" style="padding-left: 10px;" aria-hidden="true"></i>
+									</a>
+								</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<!-- Copyright -->
+			<section class="page_copyright ds parallax section_padding_25 table_section">
+				<div class="container with_top_border">
+					<div class="row">
+						<div class="col-sm-5 text-sm-left text-center greylinks">
+							<p>Copyright &copy; 2019 Lesaint.A. Tous droits réservés</p>
+						</div>
+						<div class="col-sm-2 text-center">
+							<a href="index.html" class="logo bottom_logo grey">
+								<img src="images/logo/logo-arbre.png" alt="">
+							</a>
+						</div>
+						<div class="col-sm-5 text-sm-right">
+
+							<div class="widget widget_nav_menu darklinks">
+
+								<ul class="menu">
+									<li class="">
+										<a href="index.html">Accueil</a>
+									</li>
+									<li class="">
+										<a href="faq.html">FAQ</a>
+									</li>
+									<li class="">
+										<a href="mentions-legales.html">Mentions légales</a>
+									</li>
+									<li class="">
+										<a href="contact.html">Contact</a>
+									</li>
+								</ul>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+
+</html>

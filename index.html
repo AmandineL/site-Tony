@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>L'art du jardin en sologne</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="icon" href="images/logo/logo.ico" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">
+				<i class="rt-icon2-cross2"></i>
+			</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form form-inline" action="./">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div>
+	<!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- Information barre -->
+			<section class="page_topline cs section_padding_15 table_section table_section_md">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 text-center text-md-left">
+							<div class="page_social_icons">
+								<a class="social-icon theme-color-icon soc-facebook" href="https://www.facebook.com/Lart-du-jardin-en-sologne-1155639714614113/" title="Facebook"></a>
+								<a class="social-icon theme-color-icon soc-twitter" href="#" title="Twitter"></a>
+								<a class="social-icon theme-color-icon soc-google" href="#" title="Google"></a>
+							</div>
+						</div>
+
+						<div class="col-md-10 text-center text-md-right">
+
+							<div class="inline-elem">
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-map-marker highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										18330 Neuvy-sur-Barangeon
+									</div>
+								</div>
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-phone highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										06 35 26 72 74
+									</div>
+								</div>
+
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-envelope highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										<a href="mailto:artdujardinensologne@gmail.com">artdujardinensologne@gmail.com</a>
+									</div>
+								</div>
+
+							</div>
+
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<!-- Header -->
+			<header class="page_header header_white toggler_right">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 display_table">
+							<div class="header_left_logo display_table_cell">
+								<a href="index.html" class="logo top_logo">
+									<img src="images/logo/logo.png" alt="" width="110px">
+								</a>
+							</div>
+
+							<div class="header_mainmenu display_table_cell text-right">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu" class="myNAV">
+										<li class="liNAV active">
+											<a href="index.html">Accueil</a>
+										</li>
+										<li>
+											<a href="services.html" >Nos services</a>
+										</li>
+
+										<li>
+											<a href="projets.html">Nos Projets</a>
+										</li>
+
+										<li>
+											<a href="galerie.html">Galerie</a>
+										</li>
+
+										<li>
+											<a href="contact.html">Contact</a>
+											<ul>
+												<li>
+													<a href="faq.html">FAQ</a>
+												</li>
+												<li>
+													<a href="propos.html">À Propos</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<!-- header toggler -->
+								<span class="toggle_menu">
+									<span></span>
+								</span>
+							</div>
+							
+						</div>
+
+					</div>
+				</div>
+			</header>
+
+			<!-- Slides -->
+			<section class="intro_section ds black page_mainslider">
+				<div class="flexslider" data-nav="false">
+					<ul class="slides">
+
+						<li>
+							<img src="images/slide01.jpg" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="fadeInUp">
+													<h3 class="thin">
+														<strong>Abattage &amp; Élagage</strong>
+													</h3>
+													<h4 style="font-weight: 500;">
+														Découpe, démontage des arbres à ras du sol, élagage sur la totalité de l'arbe, taille des arbres d'ormement, ...
+													</h4>
+												</div>
+												<div class="intro-layer inline-elem small-margin" data-animation="fadeInUp">
+													<a class="theme_button inverse" href="propos.html">À Propos</a>
+													<a class="theme_button" href="contact.html">Contact</a>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+
+						<li>
+							<img src="images/slide03.jpg" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="fadeInUp">
+													<h3 class="thin">
+														<strong>Remise en état &amp; Entretien de jardin</strong>
+													</h3>
+													<h4 style="font-weight: 500;">
+														Nettoyage, désherbage, débroussaillage, taille d'arbuste, traitement des allées et terrasses, tonte de gazon, ...
+													</h4>
+												</div>
+												<div class="intro-layer inline-elem small-margin" data-animation="fadeInUp">
+													<a class="theme_button inverse" href="propos.html">À Propos</a>
+													<a class="theme_button" href="contact.html">Contact</a>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+
+						<li>
+							<img src="images/slide02.jpg" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="fadeInUp">
+													<h3 class="thin">
+														<strong>Création</strong>
+													</h3>
+													<h4 style="font-weight: 500;">
+														Aménagement paysagé, pose de clôture, petit terassement, plentation, installation d'arrosage automatique, ...
+													</h4>
+												</div>
+												<div class="intro-layer inline-elem small-margin" data-animation="fadeInUp">
+													<a class="theme_button inverse" href="propos.html">À Propos</a>
+													<a class="theme_button" href="contact.html">Contacts</a>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+
+					</ul>
+				</div>
+				<!-- eof flexslider -->
+			</section>
+
+			<!-- A Propos -->
+			<section id="about" class="ls section_padding_50 table_section table_section_md">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-push-6 text-center">
+							<img src="images/about-us-home.png" alt="" />
+						</div>
+						<div class="col-md-6 col-md-pull-6">
+							<h2 class="section_header">
+								À propos de l'
+								<span class="highlight thin">Art du jardin</span> en Solgone
+							</h2>
+							<p style="text-align: justify; margin-top: 30px;" class="topmargin_30">L'art du jardin en Sologne est situé à Vierzon dans le Centre-Val de Loire, il réalise pour vous des jardins à votre image. 
+							Spécialisés dans <span class="highlight thin">Élagage</span>, <span class="highlight thin">Création</span>, <span class="highlight thin">Entretien de jardin</span> et autres créations paysagères, nous sommes à même de vous proposer différentes options afin d'embellir votre extérieur.</p>
+							<p style="text-align: justify; font-size: 16px;">Pour les particuliers, nous vous faisons bénéficier d'une réduction fiscale de 50% (selon la loi en vigueur) sur tous les travaux d'entretien occasionnel ou à l'année. Réduction des impôts.</p>
+							<p style="text-align: justify; font-size: 16px;">Contactez-nous, nos devis sont gratuits, L'art du jardin en Sologne reste à votre entière disposition.</p>
+							<p class="topmargin_50" style="text-align: center;">
+								<a href="propos.html" class="theme_button color1">Lire plus</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Slogan -->
+			<section class="ds call_to_action parallax section_padding_top_50 section_padding_bottom_50">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="section_header big">
+								Une beau jardin est 
+								<span class="highlight regular">un coeur qui bat </span> <i class="fa fa-heartbeat"></i>
+							</h2>
+							<p>Entreprise de paysagiste</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Services -->
+			<section id="services" class="ls section_padding_top_100 section_padding_bottom_75">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="section_header">
+								Nos
+								<span class="highlight thin">Services</span>
+							</h2>
+							<p>Votre paysagiste l'art du jardin en Sologne vous conseille et vous accompagne dans la création et l'entretien de vos espaces verts.
+							Nous intervenons à Vierzon, Neuvy-sur barangeon, Bourges, etc...</p>
+						</div>
+					</div>
+					<div class="row topmargin_30 columns_margin_bottom_30 columns_margin_top_0">
+						<div class="col-md-6">
+							<div class="with_padding with_background rounded">
+								<div class="media teaser">
+									<div class="media-left media-middle">
+										<div class="teaser_icon highlight size_huge">
+											<i class="greenscape-plant"></i>
+										</div>
+									</div>
+									<div class="media-body media-middle">
+										<h4>
+											<a href="services.html">Création</a>
+										</h4>
+										<p>On vous propose de : l'aménagement, la pose de clôture, plantation de fleurs, installation d'arrosage automatique, de petit terassement ...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="with_padding with_background rounded">
+								<div class="media teaser">
+									<div class="media-left media-middle">
+										<div class="teaser_icon highlight size_huge">
+											<i class="greenscape-peel"></i>
+										</div>
+									</div>
+									<div class="media-body media-middle">
+										<h4>
+											<a href="services.html">Remise en état &amp; Entretien</a>
+										</h4>
+										<p>On vous propose de : nettoyer des terrasses, désherbage, débroussaillage, taille d'arbuste, tonte de gazon, traintement des allées ...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="with_padding with_background rounded">
+								<div class="media teaser">
+									<div class="media-left media-middle">
+										<div class="teaser_icon highlight size_huge">
+											<i class="greenscape-pruner"></i>
+										</div>
+									</div>
+									<div class="media-body media-middle">
+										<h4>
+											<a href="services.html">Abattage &amp; Elagage</a>
+										</h4>
+										<p>On vous propose de : la découpe de bois de chauffe, démontage des arbres, élagage de l'arbre, purge du bois mort, taille frutiére ...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="with_padding with_background rounded">
+								<div class="media teaser">
+									<div class="media-left media-middle">
+										<div class="teaser_icon highlight size_huge">
+											<i class="greenscape-hose"></i>
+										</div>
+									</div>
+									<div class="media-body media-middle">
+										<h4>
+											<a href="services.html">Service à la personne</a>
+										</h4>
+										<p>50 % du montant déductible des impots sur le revenu pour tout type d'entretien : tonte, débroussaillage, tailles diverses ...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Galerie -->
+			<section id="gallery" class="ls ms section_padding_top_50 columns_margin_0 bg_text_heading page_projects">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="filters carousel_filters text-center">
+								<a href="#" data-filter="*" class="selected">Tout</a>
+								<a href="#" data-filter=".taille">Taille</a>
+								<a href="#" data-filter=".remplissage">Remplissage piscine</a>
+								<a href="#" data-filter=".remise">Remise en état</a>
+								<a href="#" data-filter=".divers">Divers</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="ls ms">
+				<div class="owl-carousel filterable-carousel" data-nav="false" data-margin="0" data-loop="true" data-filters=".carousel_filters">
+					<div class="vertical-item taille">
+						<div class="item-media">
+							<img src="images/gallery/entretien/taille01.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/taille01.jpg"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="vertical-item remplissage">
+						<div class="item-media">
+							<img src="images/gallery/creation/03.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/creation/03.jpg"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="vertical-item remise">
+						<div class="item-media">
+							<img src="images/gallery/entretien/07.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/07.jpg"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="vertical-item divers">
+						<div class="item-media">
+							<img src="images/gallery/abattage/bois05.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/abattage/bois05.jpg"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="vertical-item taille">
+						<div class="item-media">
+							<img src="images/gallery/entretien/taille03.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/taille03.jpg"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="vertical-item remplissage">
+						<div class="item-media">
+							<img src="images/gallery/creation/04.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/creation/04.jpg"></a>
+							</div>
+						</div>
+					</div>
+					<div class="vertical-item remplissage">
+						<div class="item-media">
+							<img src="images/gallery/creation/05.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/creation/05.jpg"></a>
+							</div>
+						</div>
+					</div>
+					<div class="vertical-item remplissage">
+						<div class="item-media">
+							<img src="images/gallery/creation/07.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/creation/07.jpg"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="vertical-item taille">
+						<div class="item-media">
+							<img src="images/gallery/entretien/taille05.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/taille05.jpg"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="vertical-item taille">
+						<div class="item-media">
+							<img src="images/gallery/entretien/taille06.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/taille06.jpg"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="vertical-item taille">
+						<div class="item-media">
+							<img src="images/gallery/entretien/taille07.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/taille07.jpg"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="vertical-item remise">
+						<div class="item-media">
+							<img src="images/gallery/entretien/08.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/08.jpg"></a>
+							</div>
+						</div>
+					</div>
+					<div class="vertical-item remise">
+						<div class="item-media">
+							<img src="images/gallery/entretien/02.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/02.jpg"></a>
+							</div>
+						</div>
+					</div>
+					<div class="vertical-item remise">
+						<div class="item-media">
+							<img src="images/gallery/entretien/01.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/entretien/01.jpg"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="vertical-item divers">
+						<div class="item-media">
+							<img src="images/gallery/abattage/bois10.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/abattage/bois10.jpg"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="vertical-item divers">
+						<div class="item-media">
+							<img src="images/gallery/abattage/bois08.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/abattage/bois08.jpg"></a>
+							</div>
+						</div>
+					</div>
+					<div class="vertical-item divers">
+						<div class="item-media">
+							<img src="images/gallery/creation/01.jpg" alt="">
+							<div class="media-links">
+								<a class="abs-link" title="" data-gal="prettyPhoto[gal]" href="images/gallery/creation/01.jpg"></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<!-- Projet réalisé -->
+			<section id="blog" class="ls section_padding_top_100 section_padding_bottom_100">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="section_header">
+								Projets
+								<span class="highlight thin">Réalisés</span>
+							</h2>
+							<p>Quelques exemple de projets réalisés par l'art du jardin en sologne</p>
+						</div>
+					</div>
+					<div class="row topmargin_30">
+						<div class="col-sm-6">
+							<article class="vertical-item content-padding post format-standard with_background text-center rounded">
+
+								<div class="item-media entry-thumbnail">
+									<img src="images/gallery/abattage/bois09.jpg" alt="">
+									<div class="media-links">
+										<a class="abs-link" title="" href="projet-detail.html"></a>
+									</div>
+								</div>
+
+								<div class="item-content entry-content">
+									<header class="entry-header">
+
+										<div class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												Fait à Vierzon, 
+											</time>
+											par
+											<a href="#">Tony</a>
+										</div>
+
+										<h3 class="entry-title">
+											<a href="projet-detail.html" rel="bookmark">Découpe de bois de chauffage</a>
+										</h3>
+
+									</header>
+									<!-- .entry-header -->
+
+									<p>Prosciutto tail spare ribs kielbasa pork meatball hamburger alcatra chicken shank corned beef tenderloin pork loin tri-tip ball tip. Tenderloin alcatra meatball tongue chicken fatback.</p>
+
+									<p class="topmargin_50">
+										<a href="projet-detail.html" class="theme_button color1">Voir plus</a>
+									</p>
+
+
+								</div>
+								<!-- .item-content.entry-content -->
+							</article>
+						</div>
+						<div class="col-sm-6">
+							<article class="vertical-item content-padding post format-standard with_background text-center rounded">
+
+								<div class="item-media entry-thumbnail">
+									<img src="images/gallery/abattage/abattage-projet.jpg" alt="">
+									<div class="media-links">
+										<a class="abs-link" title="" href="projet-detail.html"></a>
+									</div>
+								</div>
+
+								<div class="item-content entry-content">
+									<header class="entry-header">
+
+										<div class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												Fait à Bourges,
+											</time>
+											par
+											<a href="#">Tony</a>
+										</div>
+
+										<h3 class="entry-title">
+											<a href="projet-detail.html" rel="bookmark">Abattage d'une cépée de frêne</a>
+										</h3>
+
+									</header>
+									<!-- .entry-header -->
+
+									<p>Très peu de place pour envoyer les branches dont une partie avec la maison en dessous et un toit en tuile. L’autre côté des arbres il y avait une rivière et l’évacuation des branches était par la maison.</p>
+
+									<p class="topmargin_50">
+										<a href="projet-detail.html" class="theme_button color1">Voir plus</a>
+									</p>
+
+								</div>
+								<!-- .item-content.entry-content -->
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<footer class="page_footer ds parallax section_padding_top_100 section_padding_bottom_50">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-3 col-sm-6">
+
+							<div class="widget widget_text">
+
+								<h3 class="widget-title">Contact
+									<span class="highlight regular">Info</span>
+								</h3>
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-map-marker highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										18330 Neuvy-sur-Barangeon
+									</div>
+								</div>
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-pencil highlight fontsize_16"></i>
+									</div>
+									<div class="media-body greylinks underlined-links">
+										<a href="mailto:artdujardinensologne@gmail.com">artdujardinensologne@gmail.com</a>
+									</div>
+								</div>
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-phone highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										06 35 26 72 74
+									</div>
+								</div>
+
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-check-square-o highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										844.619.601.000.17-APE8130
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_nav_menu">
+
+								<h3 class="widget-title">Lien
+									<span class="highlight regular">Utile</span>
+								</h3>
+								<div>
+									<ul class="menu greylinks fontsize_16">
+										<li class="">
+											<a href="propos.html">À Propos</a>
+										</li>
+										<li class="">
+											<a href="services.html">Nos Services</a>
+										</li>
+										<li class="">
+											<a href="galerie.html">Galerie</a>
+										</li>
+										<li class="">
+											<a href="contact.html">Contact</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_categories">
+
+								<h3 class="widget-title">Nos
+									<span class="highlight regular">Services</span>
+								</h3>
+								<ul class="greylinks">
+									<li>
+										<a href="services.html" title="">Création</a>
+									</li>
+									<li>
+										<a href="services.html" title="">Remise en état &amp; Entretien</a>
+									</li>
+									<li>
+										<a href="services.html" title="">Abattage &amp; Élagage</a>
+									</li>
+									<li>
+										<a href="services.html" title="">Service à la personne</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_mailchimp">
+
+								<h3 class="widget-title">Nous
+									<span class="highlight regular">Suivre</span>
+								</h3>
+
+								<p>
+									Suivez-nous sur les réseaux sociaux pour voir nos activitées en direct et suivre les projets ! 
+									<a href="https://www.facebook.com/Lart-du-jardin-en-sologne-1155639714614113/?epa=SEARCH_BOX" target="_blank">
+										<i class="fa fa-facebook-square highlight fontsize_18" style="padding-left: 10px;" aria-hidden="true"></i>
+									</a>
+								</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<!-- Copyright -->
+			<section class="page_copyright ds parallax section_padding_25 table_section">
+				<div class="container with_top_border">
+					<div class="row">
+						<div class="col-sm-5 text-sm-left text-center greylinks">
+							<p>Copyright &copy; 2019 Lesaint.A. Tous droits réservés</p>
+						</div>
+						<div class="col-sm-2 text-center">
+							<a href="index.html" class="logo bottom_logo grey">
+								<img src="images/logo/logo-arbre.png" alt="">
+							</a>
+						</div>
+						<div class="col-sm-5 text-sm-right">
+
+							<div class="widget widget_nav_menu darklinks">
+
+								<ul class="menu">
+									<li class="">
+										<a href="index.html">Accueil</a>
+									</li>
+									<li class="">
+										<a href="faq.html">FAQ</a>
+									</li>
+									<li class="">
+										<a href="mentions-legales.html">Mentions légales</a>
+									</li>
+									<li class="">
+										<a href="contact.html">Contact</a>
+									</li>
+								</ul>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			
+
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
